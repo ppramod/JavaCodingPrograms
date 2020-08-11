@@ -29,7 +29,10 @@ public class PermutationsOfString {
     // Driver code 
     public static void main(String[] args) 
     { 
-        String s = "abb"; 
+        String s = "abb";
+        String str="pramod";
+        String str2=  str.substring(3,5);
+        System.out.println(str2);
         printPermutn(s, ""); 
     } 
 }
